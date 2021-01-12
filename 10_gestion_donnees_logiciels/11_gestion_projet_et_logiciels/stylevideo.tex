@@ -1,0 +1,60 @@
+\usepackage{tcolorbox}
+%\usepackage{fontspec}
+%\setmainfont{Century Gothic}
+
+
+%\logo{\includegraphics[width = 1.4cm]{Videns-colored-1-logo-Final.png}}
+%\logo{\includegraphics[width = 1.4cm]{Videns-colored-2-logo-Final.png}}
+
+% Couleurs Videns
+\definecolor{turquoiseVidens}{RGB}{0,175,170}
+\definecolor{vertVidens}{RGB}{205,222,0}
+\definecolor{vertVidens2}{RGB}{102, 198, 85}
+\definecolor{orangeVidens}{RGB}{255,103,29}
+\definecolor{grisVidens}{RGB}{99,102,106}
+
+% Couleurs standard utiles
+\definecolor{noir}{RGB}{0,0,0}
+\definecolor{blanc}{RGB}{255,255,255}
+\definecolor{grisPale}{RGB}{229, 234, 230}
+\definecolor{grisFonce}{RGB}{10,10,10}
+
+\definecolor{grad1}{HTML}{00AFAA}
+\definecolor{grad2}{HTML}{88CE38}
+\definecolor{grad3}{HTML}{44BE71}
+\definecolor{grad4}{HTML}{00AFAA}
+
+%%%%%%%%%%%%%%%%%%%%%%
+
+\metroset{background = dark, progressbar = frametitle}
+
+
+
+\setbeamercolor{palette primary}{bg=grisFonce,fg=white}
+\setbeamercolor{background canvas}{parent=palette primary}
+\setbeamercolor{normal text}{fg=white}
+
+\setbeamercolor{progress bar}{fg=turquoiseVidens}
+\setbeamercolor{alerted text}{fg=orangeVidens}
+\setbeamertemplate{frame footer}{\copyright Véronique Tremblay}
+
+%\setbeamercolor{background canvas}{bg=noir}
+
+% Faire des boîtes de couleur
+\usepackage{tcolorbox}
+\newtcolorbox{encadreOrange}{colback=blanc, colframe = orangeVidens, grow to right by=-0mm,grow to left by=-0mm, boxrule=0.8pt, boxsep=0.8pt}
+\newcommand{\boiteOrange}[1]{\begin{encadreOrange} #1 \end{encadreOrange}}
+
+\newtcolorbox{encadreVert}{colback=blanc, colframe = vertVidens, grow to right by=-0mm,grow to left by=-0mm, boxrule=0.8pt, boxsep=0.8pt}
+\newcommand{\boiteVerte}[1]{\begin{encadreVert} #1 \end{encadreVert}}
+
+\newtcolorbox{encadreTurquoise}{colback=blanc, colframe = turquoiseVidens, grow to right by=-0mm,grow to left by=-0mm, boxrule=0.8pt, boxsep=0.8pt}
+\newcommand{\boiteTurquoise}[1]{\begin{encadreTurquoise} #1 \end{encadreTurquoise}}
+
+
+\usepackage{multicol}
+\newcommand{\btwocol}{\begin{multicols}{2}}
+\newcommand{\etwocol}{\end{multicols}}
+
+\usepackage[orientation=landscape,size=custom,width=16,height=9.75,scale=0.5, debug]{beamerposter}
+

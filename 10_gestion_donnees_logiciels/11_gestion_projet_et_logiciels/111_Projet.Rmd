@@ -1,0 +1,66 @@
+---
+title: "Les étapes d'un projet d'analyse de données"
+author: "Véronique Tremblay"
+institute: Département de mathématiques et de statistique, Université Laval
+output:
+  beamer_presentation:
+    includes:
+      in_header: styleetudiants.tex
+    theme: metropolis
+    toc: yes
+    incremental: yes
+    fig_width: 6
+    fig_height: 4
+    fig_caption: yes
+  ioslides_presentation:
+    incremental: yes
+  slidy_presentation:
+    incremental: yes
+bibliography: biblio_projet.bibtex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(ggplot2)
+library(dplyr)
+```
+
+
+## Les étapes d'un projet d'analyse de données
+
+1. Définition des objectifs
+2. Données
+3. Élaboration et validation des modèles 
+4. Mise en oeuvre
+5. Suivi de la performance et amélioration
+
+\transcover
+
+## Planifier un projet.
+
+Temps requis pour chaque étape (@pyle99)
+
+|Étape |Temps requis |
+|----------------|---------------------|
+|Identifier le problème|  10%  |
+|Explorer la solution| 9%  |
+Spécification de l'implantation |  1%  |
+Préparation des données|  60%  |
+Analyse descriptive des données |  15%  |
+Modélisation| 5% |
+
+##
+
+\metroset{block=fill}
+
+\begin{block}{Default}
+    Block content.
+\end{block}
+
+\begin{alertblock}{Alert}
+     Block content.
+\end{alertblock}
+
+
+
+
