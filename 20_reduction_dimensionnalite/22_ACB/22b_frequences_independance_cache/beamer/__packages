@@ -1,0 +1,17 @@
+base
+rmarkdown
+knitr
+tidyr
+lubridate
+tidyverse
+ggplot2
+tibble
+readr
+purrr
+dplyr
+stringr
+forcats
+plotly
+FactoMineR
+CANSIM2R
+easyGgplot2
